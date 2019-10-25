@@ -1,0 +1,39 @@
+#Created by Pranav Pandya
+#PRN 19070146007
+
+print('Q1')
+rad=float(input('\nEnter radius of circle'))
+print('\nArea of circle is  ') 
+print(3.14*(rad**2))
+print('\nPerimeter of circle is')
+print(3.14*(rad*2))
+
+print('\nQ2')
+workwomen=float(input('Enter no. of working women'))
+totalwomen=float(input('Enter no. of total women'))
+print('Female work participation rate is')
+print(workwomen/totalwomen*100)
+
+print('Q3')
+SVD=float(input('Enter Saturation Vapor Density'))
+AVD=float(input('Enter Actual Vapour Density'))
+
+print('Relative Humadity is')
+print(AVD/SVD*100)
+
+print('Q4')
+BR=float(input('Enter Births per year')
+TP=float(input('Enter total popultion')
+print('Crude Birth Rate is'')
+print(BR/TP*1000)
+
+print('Q5')
+print('Provide the following details:')
+C=float(input('Consumption'))
+I=float(input('Investment'))
+E=float(input('Expenditure'))
+Ex=float(input('Exports'))
+Im=float(input('Imports'))
+
+print('GDP is')
+print(C+I+E+Ex-Im)
