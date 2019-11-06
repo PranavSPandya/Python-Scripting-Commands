@@ -1,6 +1,6 @@
 #Created by Pranav Pandya
 #Date 5/11/2019
-#Python classwork
+#Python Script for Factorial Computation
 
 import math
 
