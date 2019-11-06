@@ -18,7 +18,8 @@ value_splitted=given_value.split("!+")
 #This will split the given string at every "!+"
 
 value=list(value_splitted) 
-value[4]=5
+length=len(value)
+value[len-1]=len
 j=0
 
 given_list=[]
@@ -44,4 +45,3 @@ num2=int(input("Enter your second number"))
 num3=int(input("Enter your third number"))
 
 print("Sum of fifth power for all numbers is",math.pow(num1,5)+math.pow(num2,5)+math.pow(num3,5))
-
